@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(171, 163, 177);
+}
+div#carousel  {
+    position: relative;
+    width: 94%;
+    margin: auto;
+
+}
+div#carousel div.slides{
+
+}
+div#carousel div.slides div.item h2{
+       text-align: center;
+   }
+div#carousel div.slides div.item img{
+  border: 7px double white;
+  width: 99%;
+}
+div#carousel div.slides div.item p{
+  text-align: center;
+}
+div#carousel div.controls{
+  position: relative;
+  bottom: 270px;
+}
+div#carousel div.controls button:nth-child(1){
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  opacity: 0.5;
+
+}
+div#carousel div.controls button:nth-child(2){
+  position: absolute;
+  right: 0vw;
+  width: 50px;
+  height: 50px;
+  opacity: 0.5;
+}
+div#carousel div.paginator{
+  position: absolute;
+  left: 46vw;
+  bottom:10vh;
+}
